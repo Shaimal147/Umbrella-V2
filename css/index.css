@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.index {
+    background-image: url(../assets/spotlit_display_interior_design_2204.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Roboto, sans-serif;
+}
+
+html.index, body.index {
+    height: 100%;
+}
+
+.nav-container-1 {
+    font-family: "IBM Plex Sans", sans-serif;
+}
