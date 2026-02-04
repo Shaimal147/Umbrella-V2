@@ -40,11 +40,8 @@ html.index, body.index {
 #carouselExampleCaptions .carousel-item img {
   height: 100%;
   width: 100%;
-  object-fit: cover;        
-}
-
-
-#carouselExampleCaptions .carousel-item img {
+  object-fit: cover;   
   filter: blur(4px);
-  transform: scale(1.05);
+  transform: scale(1.05);     
 }
+
