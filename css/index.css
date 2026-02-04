@@ -9,6 +9,7 @@ body.index {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Roboto, sans-serif;
 }
 
@@ -30,4 +31,20 @@ html.index, body.index {
     width: 32px;
     height: 32px;
     padding: 0;
+}
+
+#carouselExampleCaptions .carousel-item {
+  height: 360px;              
+}
+
+#carouselExampleCaptions .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;        
+}
+
+
+#carouselExampleCaptions .carousel-item img {
+  filter: blur(4px);
+  transform: scale(1.05);
 }
